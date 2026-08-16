@@ -8,21 +8,21 @@ export const NAV_LINKS = [
 export const SERVICES = [
   {
     icon: 'grid',
-    title: 'AI Website & App Development',
+    title: 'Software Development & Web Development',
     description: 'Next-gen web applications built with intelligent backends and adaptive user interfaces.',
     tags: ['React', 'Next.js', 'AI Integration'],
   },
   {
     icon: 'database',
-    title: 'Data Scraping & Intelligence',
+    title: 'Data Intelligence',
     description: 'Automated extraction pipelines turning raw web data into actionable business insights.',
     tags: ['Python', 'ETL', 'Analytics'],
     featured: true,
   },
   {
     icon: 'network',
-    title: 'Business Process Automation',
-    description: 'End-to-end workflow automation to reduce manual tasks and increase operational efficiency.',
+    title: 'Blockchain Development',
+    description: 'Secure, decentralized applications and smart contracts built for transparency and trust.',
     tags: ['n8n', 'Zapier', 'Custom Scripts'],
   },
   {

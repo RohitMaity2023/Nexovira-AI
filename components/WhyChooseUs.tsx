@@ -16,7 +16,7 @@ export const WhyChooseUs: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-16">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-6 leading-tight">
-            Why Partners Trust Nexovera
+            Why Partners Trust Nexovira
           </h2>
           <p className="text-slate-400 text-lg leading-relaxed mb-6">
             In a rapidly evolving landscape, you need a partner who prioritizes stability, security, and

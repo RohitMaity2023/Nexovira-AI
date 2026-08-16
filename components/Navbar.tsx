@@ -12,7 +12,7 @@ export const Navbar: React.FC = () => {
           <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-brand-500 to-accent-600 flex items-center justify-center font-bold text-white">
             N
           </div>
-          <span className="text-xl font-display font-bold text-white">Nexovera</span>
+          <span className="text-xl font-display font-bold text-white">Nexovira</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-10">

@@ -22,7 +22,7 @@ export default async function handler(req, res) {
   try {
     // 1. Save the lead to Supabase
     const { error: dbError } = await supabase
-      .from('leads')
+      .from('Leads')
       .insert([{ name, email, phone: phone || null, message: message || null }]);
 
     if (dbError) {
@@ -32,7 +32,7 @@ export default async function handler(req, res) {
 
     // 2. Send a notification email to yourself
     await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'consultations@nexoviraai.com',
       to: 'kumarmaityrohit@gmail.com', // replace with your real email
       subject: `New consultation request from ${name}`,
       html: `
