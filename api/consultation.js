@@ -33,7 +33,7 @@ export default async function handler(req, res) {
     // 2. Send a notification email to yourself
     await resend.emails.send({
       from: 'consultations@nexoviraai.com',
-      to: 'kumarmaityrohit@gmail.com', // replace with your real email
+      to: 'stellarforge24@gmail.com', // replace with your real email
       subject: `New consultation request from ${name}`,
       html: `
         <h2>New Consultation Request</h2>
